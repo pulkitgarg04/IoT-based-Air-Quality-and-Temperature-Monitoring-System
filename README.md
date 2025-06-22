@@ -25,6 +25,9 @@ This documentation explains how to use the provided code to build and deploy an 
     iii. DHT
     iv. LiquidCrystal_I2C
 
+## Circuit Diagram
+![Circuit Diagram](./images/Circuit_Diagram.png)
+
 ### Setup Instructions
 1. Install Required Libraries:
 Open the Arduino IDE and install the following libraries via Tools → Manage Libraries:
@@ -73,6 +76,9 @@ const char *writeAPIKey = YOUR_API_KEY;     // Replace with your ThingSpeak API 
     - Humidity in %
     - Gas value and air quality (e.g., "Fresh Air" or "Bad Air").
 - Data is sent to ThingSpeak every 30 seconds. You can view the data on your ThingSpeak channel.
+
+## ThinkSpeak Dashboard
+![ThinkSpeak](./images/ThingSpeak_Dashboard.png)
 
 ### Key Components in Code
 1. Sensor Readings:
